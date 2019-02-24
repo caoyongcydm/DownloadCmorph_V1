@@ -12,6 +12,7 @@
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -33,6 +34,15 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="CaoYong.DataProc">
+      <HintPath>..\..\..\..\Documents\Visual Studio 2010\Projects\CaoYong.DataProc\CaoYong.DataProc\bin\Release\CaoYong.DataProc.dll</HintPath>
+    </Reference>
+    <Reference Include="CaoYong.DataType">
+      <HintPath>..\..\..\..\Documents\Visual Studio 2010\Projects\CaoYong.DataProc\CaoYong.DataProc\bin\Release\CaoYong.DataType.dll</HintPath>
+    </Reference>
+    <Reference Include="CaoYong.SimpleLog">
+      <HintPath>..\..\..\..\Documents\Visual Studio 2010\Projects\CaoYong.SimpleLog\CaoYong.SimpleLog\bin\Release\CaoYong.SimpleLog.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
